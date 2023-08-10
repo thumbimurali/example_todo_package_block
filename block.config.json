@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/thumbimurali/example_todo_package_block.git",
+    "ssh": "git@github.com:thumbimurali/example_todo_package_block.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "-VmC6TLYUUeEzfxooykTa",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "zetwsI9VY6YYw_nCqymcL"
+  ]
+}
