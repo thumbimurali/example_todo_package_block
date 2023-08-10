@@ -1,8 +1,8 @@
 {
   "type": "function",
   "source": {
-    "https": "",
-    "ssh": "",
+    "https": "https://github.com/thumbimurali/example_todo_package_block.git",
+    "ssh": "git@github.com:thumbimurali/example_todo_package_block.git",
     "branch": "block_listTodos"
   },
   "language": "nodejs",

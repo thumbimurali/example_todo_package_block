@@ -2,8 +2,8 @@
   "name": "example_todo_package_block",
   "type": "package",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/thumbimurali/example_todo_package_block.git",
+    "ssh": "git@github.com:thumbimurali/example_todo_package_block.git",
     "branch": "block_example_todo_package_block"
   },
   "dependencies": {
