@@ -1,0 +1,36 @@
+{
+  "name": "example_todo_package_block",
+  "type": "package",
+  "source": {
+    "https": "https://github.com/thumbimurali/example_todo_package_block.git",
+    "ssh": "git@github.com:thumbimurali/example_todo_package_block.git",
+    "branch": "block_example_todo_package_block"
+  },
+  "dependencies": {
+    "removeTodo": {
+      "directory": "removeTodo"
+    },
+    "listTodos": {
+      "directory": "listTodos"
+    },
+    "addTodo": {
+      "directory": "addTodo"
+    },
+    "todoInput": {
+      "directory": "todoInput"
+    },
+    "todoItem": {
+      "directory": "todoItem"
+    },
+    "todoContainer": {
+      "directory": "todoContainer"
+    }
+  },
+  "blockId": "zetwsI9VY6YYw_nCqymcL",
+  "parentBlockIDs": [],
+  "isPublic": true,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "repoType": "mono"
+}
