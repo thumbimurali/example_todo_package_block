@@ -1,0 +1,22 @@
+{
+  "name": "todoContainer",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/thumbimurali/example_todo_package_block.git",
+    "ssh": "git@github.com:thumbimurali/example_todo_package_block.git",
+    "branch": "block_todoContainer"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "xrV70n5FccvfwXURXJgbf",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "zetwsI9VY6YYw_nCqymcL"
+  ]
+}
